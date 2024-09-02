@@ -39,3 +39,9 @@ ScrollReveal().reveal(".header_btns", {
   ...scrollRevealOption,
   delay: 1500,
 });
+//Animações - Sobre-Nos//
+
+ScrollReveal().reveal(".destination_card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
