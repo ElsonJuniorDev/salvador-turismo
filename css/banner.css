@@ -1,0 +1,33 @@
+.banner_container{
+    display: grid;
+    gap: 2rem;
+}
+
+.banner_card{
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--extra-ligth);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner_card h4{
+font-size: 5rem;
+font-size: 500;
+color: var(--primary-blue);
+}
+
+.banner_card p{
+    color: var(--text-ligth);
+}
+
+@media (width > 540px) {
+    .banner_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (width > 768px) {
+    .banner_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

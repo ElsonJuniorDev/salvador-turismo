@@ -9,6 +9,7 @@
   isolation: isolate;
   padding-top: 4rem;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .journey_card_bg {
@@ -71,13 +72,13 @@
 }
 
 @media (width > 540px) {
-    .journey_grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .journey_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media (width > 768px){
-    .journey_grid{
-        grid-template-columns: repeat(3, 1fr);
-    }
+@media (width > 768px) {
+  .journey_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

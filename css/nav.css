@@ -100,18 +100,17 @@ nav {
     color: var(--primary-blue);
   }
 
-  .nav_links li:last-child{
-    display: none ;
+  .nav_links li:last-child {
+    display: none;
   }
 
-  .nav_btns{
+  .nav_btns {
     flex: 1;
     display: flex;
     justify-content: flex-end;
   }
-  .nav_btns button{
+  .nav_btns button {
     padding: 0.75rem 2rem;
     background-color: var(--text-dark);
-
   }
 }

@@ -45,3 +45,27 @@ ScrollReveal().reveal(".destination_card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+//Animações - Pacotes//
+
+ScrollReveal().reveal(".showcase_image img", {
+  ...scrollRevealOption,
+  origin: "left",
+});
+ScrollReveal().reveal(".showcase_content h4", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+ScrollReveal().reveal(".showcase_content p", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+ScrollReveal().reveal(".showcase_btn", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+//Animações - Banner//
+ScrollReveal().reveal(".banner_card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
