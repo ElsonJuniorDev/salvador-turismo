@@ -1,8 +1,9 @@
+/*
 .section_container :is(.section_header, .section_description) {
   text-align: left;
   margin-inline-start: unset;
 }
-
+*/
 .destination_grid {
   margin-top: 4rem;
   display: grid;

@@ -78,7 +78,10 @@ header::before {
     grid-column: 2/4;
     padding-block: 8rem;
   }
-  .header_container:is(p, h1) {
+  .header_container p {
+    text-align: left;
+  }
+  .header_container h1 {
     text-align: left;
   }
   .header_btns {

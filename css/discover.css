@@ -1,0 +1,44 @@
+.discover_grid {
+  display: grid;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.discover_card {
+  padding: 2rem 1rem;
+  text-align: center;
+  
+  border-radius: 1rem;
+}
+.discover_card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.discover_card span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  color: var(--primary-blue);
+  background-color: rgba(40, 135, 255, 0.1);
+  border-radius: 100%;
+}
+
+.discover_card h4 {
+  max-width: 150px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+@media (width > 540px) {
+  .discover_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (width > 768px) {
+  .discover_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

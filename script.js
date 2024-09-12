@@ -69,3 +69,8 @@ ScrollReveal().reveal(".banner_card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+ScrollReveal().reveal(".discover_card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
